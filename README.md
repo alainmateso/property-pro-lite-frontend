@@ -1,2 +1,3 @@
-# property-pro-lite-frontnd
-Property Pro Lite is a platform where users can find properties for sale or rent
+# Property-Pro Lite FrontEnd
+
+[![Build Status](https://travis-ci.com/alainmateso/property-pro-lite-frontend.svg?branch=develop)](https://travis-ci.com/alainmateso/property-pro-lite-frontend)  [![Maintainability](https://api.codeclimate.com/v1/badges/ed36ddbf353e0d9917df/maintainability)](https://codeclimate.com/github/alainmateso/property-pro-lite-frontend/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/ed36ddbf353e0d9917df/test_coverage)](https://codeclimate.com/github/alainmateso/property-pro-lite-frontend/test_coverage)

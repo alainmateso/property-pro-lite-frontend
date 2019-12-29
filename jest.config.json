@@ -1,0 +1,14 @@
+{
+  "testRegex": "((\\.|/*.)(spec))\\.js?$",
+  "setupFilesAfterEnv": [
+    "<rootDir>/jest.setup.js",
+    "@babel/polyfill"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,ts,tsx}",
+    "!<rootDir>/node_modules/",
+    "!src/**/*.stories.js",
+    "!src/index.js",
+    "!src/config/*.{js,jsx}"
+  ]
+}
