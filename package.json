@@ -9,8 +9,7 @@
     "build": "webpack --mode production",
     "test": "jest --config ./jest.config.json --coverage",
     "test:watch": "npm run test -- --watch",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,7 @@
   "homepage": "https://github.com/alainmateso/property-pro-lite-frontend#readme",
   "dependencies": {
     "axios": "^0.19.0",
+    "coveralls": "^3.0.9",
     "css-loader": "^3.2.0",
     "jwt-decode": "^2.2.0",
     "moxios": "^0.4.0",
@@ -51,10 +51,6 @@
     "@babel/polyfill": "^7.7.0",
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
-    "@storybook/addon-actions": "^5.2.6",
-    "@storybook/addon-links": "^5.2.6",
-    "@storybook/addons": "^5.2.6",
-    "@storybook/react": "^5.2.6",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "enzyme": "^3.10.0",
