@@ -6,7 +6,6 @@ export class landingPage extends Component {
     return (
             <div>
                 <h1>Welcome Back</h1>
-                <button type="button" className="goButton"><a href="/new-property"> Create a new Property</a></button>
             </div>
     );
   }

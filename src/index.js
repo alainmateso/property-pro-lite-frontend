@@ -11,7 +11,6 @@ import 'regenerator-runtime/runtime';
 import { Signup } from './components/pages/Signup';
 import { Login } from './components/pages/Login';
 import landingPage from './components/pages/landingPage';
-import newProperty from './components/pages/newProperty';
 
 
 const Root = () => (
@@ -20,7 +19,6 @@ const Root = () => (
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/home" component={landingPage} />
-                <Route exact path="/new-property" component={newProperty} />
                 <Route exact path="/signin" component={Login} />
                 <Route exact path="/signup" component={Signup} />
                 <Route path="*" component={NotFound} />
