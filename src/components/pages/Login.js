@@ -57,22 +57,8 @@ export class Login extends Component {
 
   render() {
     return (
-    // <div className="login-form">
-    //   <form onSubmit={this.submitForm}>
-    //     <Input type="email" name="email" id="email" placeholder="Email..." onChange={this.handleChange} data="email" value={email} title="Enter a valid email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
-    //     <Input type="password" name="password" id="password" placeholder="Password..." onChange={this.handleChange} data="password" value={password} title="Enter your password" required />
-    //     <Button name={isLoading ? <i style={{ fontSize: '20px' }} className="fas fa-spinner fa-pulse" /> : 'login'} />
-    //   </form>
-    //   <Link to="/forgotpassword">
-    //     <p className="forgot-password">Forgot password?</p>
-    //   </Link>
-    //   <Link to="/register">
-    //     <p className="switch-auth">Signup instead</p>
-    //   </Link>
-    // </div>
-
       <div className="userForm">
-        <h1 className="welcomeMessage"><a href="/home">Property-Pro Lite</a></h1>
+        <h1 className="welcomeMessage"><a href="/">Property-Pro Lite</a></h1>
         <h4 className="welcomeMessage">Log in to have access</h4>
         <form onSubmit={this.submitForm}>
           <label htmlFor="email">Email</label>
@@ -87,6 +73,9 @@ export class Login extends Component {
                 <i className="fas fa-user-plus" />
                 Sign Up
                 </a>
+{' '}
+&nbsp;
+<a href="/">or go back Home</a>
             </p>
         </form>
       </div>
